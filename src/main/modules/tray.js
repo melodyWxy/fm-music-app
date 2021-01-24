@@ -49,7 +49,7 @@ const createTray = () => {
   // 托盘
   global.modules.tray = new Tray(iconPath)
 
-  global.modules.tray.setToolTip('洛雪音乐助手')
+  global.modules.tray.setToolTip('锋蜜音乐助手')
   createMenu(global.modules.tray)
   global.modules.tray.setIgnoreDoubleClickEvents(true)
   global.modules.tray.on('click', () => {
